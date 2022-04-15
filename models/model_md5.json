@@ -1,0 +1,22 @@
+{
+    "yolov5x.pt": {
+        "md5": "a073f15affa0858fb43b2b890b1e6805",
+        "url": "https://github.com/ultralytics/yolov5/releases/download/v6.1/yolov5x.pt",
+        "github": "https://github.com/ultralytics/yolov5"
+    },
+    "resnet101_ibn_a_2": {
+        "md5": "d8cf55c8387252a2229b5f47f6f8abe2",
+        "url": "https://drive.google.com/file/d/105guaZrBzOF92-gmo0q7yWxHJKu1bXcv/view?usp=sharing",
+        "github": "https://github.com/LCFractal/AIC21-MTMC"
+    },
+    "resnet101_ibn_a_3": {
+        "md5": "9444748355f3d77074a54174f9b89f04",
+        "url": "https://drive.google.com/file/d/1w-EdChV2FZjzJ4jrPAL_pdXSTtr75dBp/view?usp=sharing",
+        "github": "https://github.com/LCFractal/AIC21-MTMC"
+    },
+    "resnext101_ibn_a_2": {
+        "md5": "271e52db2425c1c4eb4a09febf615f24",
+        "url": "https://drive.google.com/file/d/1vTXBXt1iE1pFJqUTPij72SMaU3Dh5_IR/view?usp=sharing",
+        "github": "https://github.com/LCFractal/AIC21-MTMC"
+    }
+}

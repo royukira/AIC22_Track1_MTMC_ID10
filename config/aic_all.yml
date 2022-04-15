@@ -1,0 +1,26 @@
+# Main path of project
+MAIN_DIR: '/home/zhangrui/AIC22_Track1_MTMC_ID10/'
+
+# test data dir
+CHALLENGE_DATA_DIR: 'datasets/AIC22_Track1_MTMC_Tracking/test/'
+# ${CHALLENGE_DATA_DIR}/images/test/S06
+DET_SOURCE_DIR: 'datasets/AIC22_Track1_MTMC_Tracking/test/images/test/S06'
+# Dst dir path of intermediate result
+DATA_DIR: 'datasets/test_reproduce/'
+# Dst dir path of final result
+OUTPUT_DIR: 'results/test_reproduce/'
+# Result file name
+MCMT_OUTPUT_TXT: 'track1.txt'
+
+# ReID
+REID_SIZE_TEST: [384, 384]    # 384, 256
+ROI_DIR: 'datasets/AIC22_Track1_MTMC_Tracking/test/S06/'
+CID_BIAS_DIR: 'datasets/AIC22_Track1_MTMC_Tracking/cam_timestamp/'
+USE_RERANK: True
+USE_FF: True
+SCORE_THR: 0.1
+
+# ReID Ensemble
+ENSEMBLE_SEQ: ['detect_reid1', 'detect_reid2', 'detect_reid3']
+CAM_SEQ: ['c041', 'c042', 'c043', 'c044', 'c045', 'c046']
+CAM_CLUSTER: [[41, 42, 43, 44, 45, 46]]

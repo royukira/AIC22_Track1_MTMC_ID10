@@ -1,0 +1,7 @@
+MAIN_DIR: '/home/zhangrui/AIC22_Track1_MTMC_ID10/'
+DET_SOURCE_DIR: 'datasets/AIC22_Track1_MTMC_Tracking/test/S06/images/test/S06'
+REID_MODEL: 'models/reid/resnet101_ibn_a_2.pth'
+REID_BACKBONE: 'resnet101_ibn_a'
+DET_IMG_DIR: 'datasets/test_reproduce/'         # same as DATA_DIR
+OUTPUT_DIR: 'datasets/test_reproduce/detect_reid1/'   # dst dir
+REID_SIZE_TEST: [384, 384]

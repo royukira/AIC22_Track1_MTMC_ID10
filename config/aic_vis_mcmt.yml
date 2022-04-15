@@ -1,0 +1,4 @@
+DATA_DIR: './datasets/AIC22_Track1_MTMC_Tracking/test_reproduce/mot_result/'
+
+CHALLENGE_DATA_DIR: './datasets/AIC22_Track1_MTMC_Tracking'
+MCMT_OUTPUT_TXT: './results/base_bytetrack/track1.txt'
