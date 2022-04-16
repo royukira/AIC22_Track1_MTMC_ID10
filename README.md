@@ -25,7 +25,7 @@ pip install -r requirements.txt
     ```
 
 * Intermidiate Results  
-    Meanwhile, we provide the intermidiate results for reproducing rapidly, which include `Detection Boxes` and `ReID features`, you can download them from [Google Drive]() or [Baidu Drive (提取码:4dhe)](https://pan.baidu.com/s/1jPfQr7lAd63N0y2dKBQHfw).  
+    Meanwhile, we provide the intermidiate results for reproducing rapidly, which include `Detection Boxes` and `ReID features`, you can download them from [Google Drive](https://drive.google.com/file/d/13eHo1gwa8TzD2JHfd6vFPZxxY9TqnuhI/view?usp=sharing) or [Baidu Drive (提取码:4dhe)](https://pan.baidu.com/s/1jPfQr7lAd63N0y2dKBQHfw).  
 
     Unzip the downloaded file, move the unzipped directory to `./datasets`. Make sure the directory tree like the below structure:  
 

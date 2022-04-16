@@ -1,6 +1,7 @@
 __pycache__/
 exp/
-datasets/
+datasets/AIC22_Track1_MTMC_Tracking
+datasets/test_reproduce
 config/temp_*
 *.mp4
 *.avi
