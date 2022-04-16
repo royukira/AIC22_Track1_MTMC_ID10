@@ -1,5 +1,7 @@
 __pycache__/
 exp/
+datasets/
+config/temp_*
 *.mp4
 *.avi
 *.pt

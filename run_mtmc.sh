@@ -1,7 +1,7 @@
 #### Single-cam tracking -> Multi-cam trajectories association -> Post-processing
-## For saving time, you can download the intermidiate results from ? 
+## For saving time, you can download the intermidiate results from Google Drive or Baidu Drive 
 ## The intermidiate results include detection boxes and ReID features.
-## Unzip the downloaded file, and move the dir into './datasets' before running this shell
+## Unzip the downloaded file, and move the directory to './datasets' before running this shell script
 
 MCMT_CONFIG_FILE="temp_aic_all.yml"
 cd config/

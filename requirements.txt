@@ -1,21 +1,27 @@
-# pip install -r requirements.txt
+#pfs6pfs6pfs6
+# NOTE: Our CUDA version is 11.3
 
 # base ----------------------------------------
 Cython
 matplotlib>=3.2.2
 numpy>=1.18.5
-opencv-python>=4.1.2
+opencv-python==4.5.4.58
 Pillow
 PyYAML>=5.3.1
 scipy>=1.4.1
-tensorboard>=2.2
-torch>=1.10.0
-torchvision>=0.8.1
 tqdm>=4.41.0
 sklearn
 lap
 cython-bbox
 timm
+yacs
+
+# torch -------------------------------------
+### If you want to use pytorch 1.10.0 + CUDA 11.3 (Our env), please use the below conda command to install
+## conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+tensorboard>=2.2
+torch>=1.10.0
+torchvision>=0.8.1
 
 # logging -------------------------------------
 # wandb

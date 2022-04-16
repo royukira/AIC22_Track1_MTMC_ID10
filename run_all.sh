@@ -1,5 +1,5 @@
 #!/bin/bash
-### Please move the test dataset(AIC22_Track1_MTMC_Tracking) to './datasets' before running this shell.
+### Please move the test dataset(AIC22_Track1_MTMC_Tracking) to './datasets' before running this shell script.
 
 MCMT_CONFIG_FILE="temp_aic_all.yml"
 REID1_CONFIG_FILE="temp_reid1.yml"
@@ -48,7 +48,7 @@ cd ../../reid/reid_matching/tools
 # # NUM_BOTTLENECK_DIM=2048
 # # ====================================================
 
-# ### === Use Avg ReID Features for MC Association =======
+### === Use Avg ReID Features for MC Association =======
 WORK_NAME="none"
 PRETRAINED="none"
 LCB_PRETRAINED="none"

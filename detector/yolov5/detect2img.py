@@ -169,7 +169,7 @@ def detect(save_img=False):
                     det_num+=1
 
             # Print time (inference + NMS)
-            print(f'{s}Done. ({t2 - t1:.3f}s)')
+            #print(f'{s}Done. ({t2 - t1:.3f}s)')
 
             # Stream results
             if view_img:
