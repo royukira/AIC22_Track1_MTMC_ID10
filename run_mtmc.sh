@@ -7,6 +7,9 @@ MCMT_CONFIG_FILE="temp_aic_all.yml"
 cd config/
 python process_yml.py "aic_all.yml" ${MCMT_CONFIG_FILE}
 
+cd ../detector/
+python gen_images_aic.py ${MCMT_CONFIG_FILE}
+
 # # # # #### ByteTrack with occlusion handling. ####
 cd ../tracker/ByteTrack
 bash run_aic.sh ${MCMT_CONFIG_FILE}
@@ -48,4 +51,4 @@ python find_outlier_tracklet.py ${MCMT_CONFIG_FILE}
 
 #### Delete temporal configs
 cd ../../../config
-rm ${MCMT_CONFIG_FILE} ${REID1_CONFIG_FILE} ${REID2_CONFIG_FILE} ${REID3_CONFIG_FILE}
+rm ${MCMT_CONFIG_FILE}
